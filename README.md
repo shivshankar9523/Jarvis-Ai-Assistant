@@ -35,8 +35,10 @@ Live Data: get_current_datetime and get_weather provide instant access to essent
 Technical Architecture
 Jarvis is architected as an Agent within the LiveKit framework. The entrypoint function initializes an AgentSession and feeds it with the Assistant class. This session acts as the control hub, managing the real-time audio stream from the user and processing it through a BVC (Background Voice Cancellation) filter to ensure pristine input quality. The LLM then analyzes the cleansed audio transcript, decides which tool to use (if any), and executes the corresponding function. The preemptive_generation=True setting ensures that Jarvis starts thinking about a response even before the user has finished speaking, dramatically reducing perceived latency.
 
+In summary, Jarvis represents the cutting edge of AI-powered personal computing, offering an intelligent, adaptable, and highly efficient way to interact with your digital world. It's a true step forward in creating a more natural and productive human-computer interface.
+
 Name : Shivshankar Kumar
 
 Email : kumarshivshankar2389@gmail.com
 
-In summary, Jarvis represents the cutting edge of AI-powered personal computing, offering an intelligent, adaptable, and highly efficient way to interact with your digital world. It's a true step forward in creating a more natural and productive human-computer interface.
+
